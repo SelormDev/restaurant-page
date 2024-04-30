@@ -1,8 +1,0 @@
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    border: 2px solid red;
-    padding: 1rem;
-}
