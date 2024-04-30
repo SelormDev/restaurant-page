@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../Inter/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fcfcfc;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #39DB4A;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+
+    &:hover {
+        background-color: #2E9E2F;
+    }
+}
