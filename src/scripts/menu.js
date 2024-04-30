@@ -1,5 +1,7 @@
 "use strict";
 
+import "../styles/menu.css"
+
 export default function menu() {
     const content = document.getElementById("content");
     const element = `
