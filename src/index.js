@@ -1,23 +1,9 @@
-import "./index.css";
-import "./navBar.css"
-// import navBar from "./navBar";
-import home from "./home";
-import menu from "./menu";
-import about from "./about";
+import navBar from "./scripts/navBar";
+import home from "./scripts/home";
+import about from "./scripts/about";
 
-function component() {
-    const content = document.getElementById("content");
-    const homeBtn = document.getElementById("home");
-    const menuBtn = document.getElementById("menu")
-    const aboutBtn = document.getElementById("about")
 
-    homeBtn.addEventListener("click", home)
-    menuBtn.addEventListener("click", menu)
-    aboutBtn.addEventListener("click", about)
 
-    home() // default page
-
-}
-
-component()
-
+navBar();
+// home()
+about()
