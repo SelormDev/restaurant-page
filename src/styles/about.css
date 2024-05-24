@@ -1,10 +1,10 @@
-#about {
+.about_section {
     display: flex;
     align-items: center;
     gap: 1rem;
     height: 100%;
 
-    #about_message {
+    .about_message {
         width: 50%;
 
         h1 {

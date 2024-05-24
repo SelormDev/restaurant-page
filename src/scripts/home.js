@@ -1,11 +1,13 @@
 "use strict";
 
 import "../styles/home.css";
+import woman from "../../images/woman.svg";
+import video from "../../images/video.svg";
 
 export default function home() {
   const content = document.getElementById("content");
   const element = `
-        <section id="home_container">
+        <section class="home_container" id="home_container">
 
             <div class="home_text_container">
               <h1 id="home_title">
@@ -24,13 +26,13 @@ export default function home() {
   
                 <p> Watch now </p>
                 <span id="video_icon_container">
-                  <img src="../images/video.svg" alt="Play Icon" id="video_icon">
+                  <img src=${video} alt="Play Icon" id="video_icon">
                 </span>
               </div>
               
             </div>
 
-            <img src="../images/woman.svg" id="woman_img" alt="Logo">
+            <img src=${woman} class="woman_img" id="woman_img" alt="Logo">
 
         </section>
     `;

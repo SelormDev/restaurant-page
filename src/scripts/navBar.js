@@ -17,6 +17,7 @@ export default function navBar() {
     menuBtn.addEventListener("click", menu)
     aboutBtn.addEventListener("click", about)
 
+
 }
 
 
