@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { watchFile } = require('fs');
 
 module.exports = {
     mode: 'development',
@@ -9,6 +10,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
+    devtool: 'eval-source-map',
+    devServer: {
+        watchFiles: ['src/**/*.js', 'src/**/*.html', 'src/**/*.css'],
+    },
+
     module: {
         rules: [
             {

@@ -1,10 +1,10 @@
 "use strict";
 
 import "../styles/about.css"
-import image1 from "../../images/fi-rr-gift.svg";
-import image2 from "../../images/fi-rr-time-fast.svg";
-import image3 from "../../images/fi-rr-shopping-cart-check.svg";
-import image4 from "../../images/fi-rr-salad.svg";
+import image1 from "../images/fi-rr-gift.svg";
+import image2 from "../images/fi-rr-time-fast.svg";
+import image3 from "../images/fi-rr-shopping-cart-check.svg";
+import image4 from "../images/fi-rr-salad.svg";
 
 export default function about() {
     const content = document.getElementById("content");

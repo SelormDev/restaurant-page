@@ -1,8 +1,8 @@
 "use strict";
 
 import "../styles/home.css";
-import woman from "../../images/woman.svg";
-import video from "../../images/video.svg";
+import woman from "../images/woman.svg";
+import video from "../images/video.svg";
 
 export default function home() {
   const content = document.getElementById("content");
